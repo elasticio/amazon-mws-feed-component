@@ -1,0 +1,13 @@
+{
+  "title": "MWS Product Feed",
+  "description": "Amazon MWS Product Feed conversion component",
+  "credentials": {
+    "fields": {
+      "name": {
+        "label": "My API Key",
+        "required": true,
+        "viewClass": "TextFieldView"
+      }
+    }
+  }
+}
