@@ -1,3 +1,4 @@
+'use strict'
 var generated_Module_Factory = function () {
   var generated = {
     name: 'generated',
