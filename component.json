@@ -9,5 +9,12 @@
         "viewClass": "TextFieldView"
       }
     }
+  },
+  "actions": {
+    "generateProduct": {
+      "title": "Generate Product",
+      "main": "./lib/actions/generateProduct.js",
+      "dynamicMetadata": true
+    }
   }
 }
