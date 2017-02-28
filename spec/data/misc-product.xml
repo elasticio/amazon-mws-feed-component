@@ -1,0 +1,16 @@
+<Product>
+    <SKU>sku</SKU>
+    <LaunchDate>1970-01-01T00:01:40Z</LaunchDate>
+    <ProductData>
+        <Miscellaneous>
+            <ProductType>Flowers</ProductType>
+            <ProductCategory>Flowers</ProductCategory>
+            <ProductSubcategory>Exotics</ProductSubcategory>
+            <Manufacturer>Aldi</Manufacturer>
+            <Keywords>one</Keywords>
+            <Keywords>two</Keywords>
+            <Keywords>three</Keywords>
+            <Color>nice</Color>
+        </Miscellaneous>
+    </ProductData>
+</Product>
