@@ -24,11 +24,12 @@
     "elasticio-node": "0.0.5",
     "elasticio-sailor-nodejs": "2.0.0",
     "jsonix": "^2.4.1",
-    "jsonix-schema-compiler": "^2.3.9"
+    "jsonix-schema-compiler": "^2.3.9",
+    "mkdirp": "^0.5.1"
   },
   "scripts": {
     "prepublish": "node ./lib/generator.js > ./component.json",
-    "pretest": "node_modules/.bin/eslint lib spec Gruntfile.js component.json --ext .json --ext .js --fix --ignore-pattern mwsfeeds.js",
+    "pretest": "node_modules/.bin/eslint lib spec generated/* component.json --ext .json --ext .js --fix --ignore-pattern mwsfeeds.js",
     "test": "NODE_ENV=test"
   },
   "devDependencies": {
