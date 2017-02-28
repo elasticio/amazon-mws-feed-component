@@ -27,6 +27,7 @@
     "jsonix-schema-compiler": "^2.3.9"
   },
   "scripts": {
+    "prepublish": "node ./lib/generate > ./component.json",
     "pretest": "node_modules/.bin/eslint lib spec Gruntfile.js --ext .json --ext .js --fix --ignore-pattern mwsfeeds.js",
     "test": "NODE_ENV=test"
   },
