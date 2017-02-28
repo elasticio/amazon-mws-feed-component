@@ -29,7 +29,7 @@
     "rmrf": "^1.0.2"
   },
   "scripts": {
-    "prepublish": "node ./lib/generator.js > ./component.json",
+    "prepublish": "DEBUG=generator node ./lib/generator.js",
     "pretest": "node_modules/.bin/eslint lib spec generated/* component.json --ext .json --ext .js --fix --ignore-pattern mwsfeeds.js",
     "test": "NODE_ENV=test"
   },
