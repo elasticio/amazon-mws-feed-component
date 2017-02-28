@@ -28,7 +28,7 @@
   },
   "scripts": {
     "prepublish": "node ./lib/generator.js > ./component.json",
-    "pretest": "node_modules/.bin/eslint lib spec Gruntfile.js --ext .json --ext .js --fix --ignore-pattern mwsfeeds.js",
+    "pretest": "node_modules/.bin/eslint lib spec Gruntfile.js component.json --ext .json --ext .js --fix --ignore-pattern mwsfeeds.js",
     "test": "NODE_ENV=test"
   },
   "devDependencies": {
