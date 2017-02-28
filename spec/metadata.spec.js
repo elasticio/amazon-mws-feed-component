@@ -62,7 +62,7 @@ describe('Given the mappings', () => {
                     if (!subType) {throw new Error(`Can not lookup typeInfo of prop=${JSON.stringify(prop)}`);}
                     result.properties = toProperties(subType);
                 } else if (prop.typeInfo && prop.typeInfo.indexOf('.') >= 0) {
-          // Sometimes we have enums defined as types
+                    // Sometimes we have enums defined as types
                     const subType = lookupType(prop.typeInfo);
                     if (!subType) {throw new Error(`Can not lookup typeInfo of prop=${JSON.stringify(prop)}`);}
                     if (subType.type === 'enumInfo') {
