@@ -8,7 +8,8 @@ const NEVER = 'never';
 module.exports = {
   'env': {
     es6: true,
-    node: true
+    node: true,
+    mocha: true
   },
   plugins: [
     "json"
